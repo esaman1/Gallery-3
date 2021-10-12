@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlRootview"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mImage"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:scaleType="fitCenter"
+        android:padding="@dimen/_7sdp"
+        android:src="@drawable/ic_baseline_create_new_folder_24"
+
+        />
+
+    <TextView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mFolderName"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:text="Create New Album"/>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="vw_rationale_storage">Need Reading Storage Permission for Files</string>
+    <string name="msg_save_image">Are you want to discard without saving image ?</string>
+
+<!--   Test IDs-->
+    <string name="app_id">ca-app-pub-1599168469857155~7406857046</string>
+    <string name="banner_ad_home">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_img">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_vid">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!--   Live IDs-->
+<!--    <string name="app_id">ca-app-pub-4293491867572780~5534709463</string>-->
+<!--    <string name="banner_ad_home">ca-app-pub-4293491867572780/8788748136</string>-->
+<!--    <string name="banner_ad_img">ca-app-pub-4293491867572780/1763819560</string>-->
+<!--    <string name="banner_ad_vid">ca-app-pub-4293491867572780/2885329542</string>-->
+
+    <string name="slideshowtimer">Slideshow Timer</string>
+
+    <string-array name="slideshow_times">
+        <item>1 Sec</item>
+        <item>2 Sec</item>
+        <item>3 Sec</item>
+        <item>4 Sec</item>
+        <item>5 Sec</item>
+    </string-array>
+   </resources>

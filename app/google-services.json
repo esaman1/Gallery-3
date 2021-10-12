@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85523679086",
+    "project_id": "gallery-photos-videos-63f0a",
+    "storage_bucket": "gallery-photos-videos-63f0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85523679086:android:88e9e8b4bad06a2b32237f",
+        "android_client_info": {
+          "package_name": "com.gallery.photosgallery.videogallery.bestgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85523679086-s0jv28odcsptno2it5km8d74g5vn3q1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6PlJWpLfMRTn5QF3iRMB3uG0VDFZEnoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85523679086-s0jv28odcsptno2it5km8d74g5vn3q1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

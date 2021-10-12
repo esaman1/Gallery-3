@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#2D000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:layout_margin="10.0dip"
+        android:background="@color/white"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="5.0dip"
+        card_view:cardElevation="5.0dip"
+        android:layout_centerInParent="true"
+        card_view:cardUseCompatPadding="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/targetList"
+        android:background="@color/white"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/folder_list_view"/>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
